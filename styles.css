@@ -1,0 +1,29 @@
+.title {
+    text-align: center;
+}
+
+#text {
+    font-size: 1em;
+    border-style: solid;
+    border-width: 2px;
+    margin: auto;
+    width: 75em;
+}
+
+#joinButton {
+    background-color: #4cff00;
+    padding: 1em;
+    float: none;
+    border-radius: 2em;
+    text-align: center;
+    border: 2px solid black;
+    
+}
+
+.btn {
+    text-align: center;
+}
+
+#joinButton:hover {
+    box-shadow: #ffd800 0 0 3px 3px;
+}
