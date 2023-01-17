@@ -1,5 +1,8 @@
-.title {
+#heading {
+    font-family: 'Bell MT';
     text-align: center;
+    border-style: solid;
+    border-color: black;
 }
 
 #text {
@@ -8,16 +11,18 @@
     border-width: 2px;
     margin: auto;
     width: 75em;
+    background-color: #d7fffd;
+    padding: 3em;
 }
 
 #joinButton {
     background-color: #4cff00;
-    padding: 1em;
+    padding: 2em;
     float: none;
     border-radius: 2em;
     text-align: center;
     border: 2px solid black;
-    
+    margin: 2em;
 }
 
 .btn {
@@ -26,4 +31,17 @@
 
 #joinButton:hover {
     box-shadow: #ffd800 0 0 3px 3px;
+}
+
+body {
+    text-align: center;
+}
+
+.column {
+    font-size: 1em;
+    margin: auto;
+    padding: 3em;
+    float: left;
+    width: 40%;
+    
 }
